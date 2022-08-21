@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/per_up_frag"
+        android:name="com.qxy.cof.fragment.PersonalUpFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/per_mid_frag"
+        android:name="com.qxy.cof.fragment.PersonalMidFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/per_low_frag"
+        android:name="com.qxy.cof.fragment.PersonalLowFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+</LinearLayout>
